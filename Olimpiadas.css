@@ -138,8 +138,13 @@ header {
     text-align: center;
 }
 
-img{
+img.logo{
     width: 107px;
+    background-position: center;
+}
+
+img{
+    width: 400px;
     background-position: center;
 }
 
@@ -259,3 +264,7 @@ footer p {
     }
 }
 
+.dark{
+    background-color: black;
+    color: white;
+}
