@@ -8,7 +8,7 @@ function todarkside(){
     section.classList.remove("light")
 }
 
-function todarkside(){
+function jedaigark(){
     
     section.classList.add("light")
     section.classList.remove("dark")
