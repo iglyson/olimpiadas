@@ -234,7 +234,7 @@ footer p {
 }
 @media screen and (min-width: 768px) {
     section {
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -255,7 +255,7 @@ footer p {
 @media screen and (min-width: 1440px) {
     section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        max-width: 1400px;
+        max-width: 1900px;
     }
 }
 
