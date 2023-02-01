@@ -1,4 +1,4 @@
-/*let entrada = parseInt*/
+
 
 let section=document.querySelector("main")
 
