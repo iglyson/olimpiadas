@@ -1,17 +1,5 @@
 
-
-let section=document.querySelector("main")
-
-function todarkside(){
-    
-    section.classList.add("dark")
-    section.classList.remove("light")
+function changeMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
 }
-
-function jedaigark(){
-    
-    section.classList.add("light")
-    section.classList.remove("dark")
-}
-
-todarkside()

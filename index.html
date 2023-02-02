@@ -13,6 +13,7 @@
 <body>
   <main>
     <header>
+      
       <img class="logo" src="./OlimpiadaNews_Fotos/tokyo-2020.png" alt="some text">
       <h1>Olimpíada NEWS</h1>
       <nav class="navbar">
@@ -31,7 +32,13 @@
           <span class="bar"></span>
           <span class="bar"></span>
         </div>
-        <button id="darkbutton" onclick="todarkside()">dark side</button>
+        
+        <div id="container">
+          <h1>Modo Escuro</h1>
+          <label class="switch">
+            <input type="checkbox" onclick="changeMode()">
+            <span class="slider"></span>
+          </label>
       </nav>
         <div class="search-box">
           <input type="text" class="search-text" placeholder="pesquisa">
@@ -42,7 +49,7 @@
           </a>
         </div>
     </header>
-    <script src="script.js"></script>
+    <script src="script2.js"></script>
     <section>
 
       <article>
@@ -183,5 +190,5 @@
     </footer>
   </main>
 </body>
-    <script src="script2.js"></script>
+    <script src="script.js"></script>
 </html>
